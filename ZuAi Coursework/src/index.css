@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 768px) {
+  .media-height {
+    height: 335vh;
+  }
+  .display {
+    display: none;
+  }
+  .media-width {
+    width: 85%;
+  }
+  .justify-content {
+    justify-content: center;
+  }
+  .align-items {
+    align-items: center;
+  }
+  .media-margin {
+    margin: auto;
+  }
+  .media-font {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .display-M {
+    display: none;
+  }
+  .display-B{
+    display: block;
+  }
+  .min-height-M {
+    height: 485vh;
+  }
+  .media-height-M {
+    height: 10vh;
+    gap: 95px;
+    width: 100%;
+    margin: 0;
+  }
+  .flex-direction-row {
+    flex-direction: row;
+  }
+  .flex-direction-col {
+    flex-direction: column;
+  }
+  .width-Full {
+    width: 100%;
+  }
+  .font-Size {
+    font-size: 1.3rem;
+  }
+  .margin-M {
+    margin: 0px 0px 10px 0px;
+  }
+  .Align-Items {
+    align-items: flex-start;
+  }
+  .Justify-Content {
+    justify-content: center;
+  }
+  .Justify-Between{
+    justify-content: space-between;
+  }
+  .Margin-Left {
+    margin-left: 10px;
+  }
+  .Margin-Right {
+    margin-right: 10px;
+  }
+  .Margin-Bottom {
+    margin-bottom: 20px;
+  }
+  .Font-Size-M{
+    font-size: 1.1rem;
+  }
+  .gap-M{
+    gap: 15px;
+  }
+  .width-95{
+    width: 95%;
+  }
+  .height-M{
+    height: 0%;
+  }
+  .navbar-M{
+    display: flex;
+    flex-direction: column;
+    height: 43vh;
+    z-index: 1000;
+    margin-top: 87%;
+    background: #F8FAFC;
+    width: 10vh;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(1px);
+    box-shadow: 0px 0px 10px rgb(123 104 104 / 73%);
+    border-radius: 10px;
+    padding: 0px 0px;
+  }
+  .ham-burgur{
+  position: absolute;
+  right: 7%;
+  font-size: 2rem;
+  top: 11px;
+}
+  
+}
