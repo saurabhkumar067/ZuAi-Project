@@ -1,1 +1,2 @@
 # ZuAi-Project
+I've developed a web application designed to streamline the management and display of coursework. The app includes features like file upload, local storage, coursework details forms, evaluation displays, and more. Below is a summary of the project, including setup instructions, design decisions, implemented features, and the challenges I faced during development
