@@ -109,8 +109,8 @@ function MainPage() {
   };
 
   return (
-    <div className="w-full h-full height-M">
-      <div className="w-[75%] width-Full text-white absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]">
+    <div className="w-full h-full">
+      <div className="w-[75%] width-Full text-white absolute min-[375px]:top-[47%] min-[320px]:top-[50%] sm:top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]">
         <div className="flex gap-5 justify-content align-items">
           <div className="left w-[65%] width-95 media-width">
             <div className="text-[1.5rem] text-[#1E2026] font-bold mb-8 font-Size margin-M">
